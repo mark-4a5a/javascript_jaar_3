@@ -1,4 +1,4 @@
-array = [];
+var array = [];
 document.addEventListener("keypress", rainbow);
 function rainbow() {
   array.push(String.fromCharCode(event.keyCode));
